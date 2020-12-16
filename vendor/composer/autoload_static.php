@@ -16,6 +16,7 @@ class ComposerStaticInit0252e4fc192d747ad194607bdeb1a155
     public static $prefixLengthsPsr4 = array (
         'P' => 
         array (
+            'Purp\\ScalablepressAPI\\' => 22,
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Http\\Client\\' => 16,
         ),
@@ -28,6 +29,10 @@ class ComposerStaticInit0252e4fc192d747ad194607bdeb1a155
     );
 
     public static $prefixDirsPsr4 = array (
+        'Purp\\ScalablepressAPI\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',
