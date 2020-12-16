@@ -1,0 +1,14 @@
+{
+    "name": "purp/scalablepressapi",
+    "description": "scalable press api",
+    "type": "library",
+    "authors": [
+        {
+            "name": "purp",
+            "email": "dinhvanhieu927@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
