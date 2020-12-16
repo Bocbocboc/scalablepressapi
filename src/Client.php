@@ -1,5 +1,5 @@
 <?php
-namespace purp\scalablepressapi;
+namespace Purp\ScalablepressAPI;
 use Exception;
 use GrahamCampbell\GuzzleFactory\GuzzleFactory;
 use GuzzleHttp\Client as GuzzleClient;
