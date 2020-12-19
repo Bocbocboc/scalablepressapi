@@ -224,7 +224,6 @@ class Client{
     }
     public function uploadDesign($data)
     {
-        // dd($data);
         try {
             $response = $this->client->request('POST', 'https://api.scalablepress.com/v2/design', [
                 'auth'        => ['', $this->key],
