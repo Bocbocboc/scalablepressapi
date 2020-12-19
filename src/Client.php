@@ -229,7 +229,7 @@ class Client{
                 'auth'        => ['', $this->key],
                 'form_params' => $data
             ]);
-            return $response->getBody()->getContents();
+            return json_decode($response->getBody()->getContents());
         } catch (RequestException $e) {
             if ($e->hasResponse()) {
                 return $e->getResponse()->getBody()->getContents();

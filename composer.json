@@ -9,7 +9,8 @@
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": "^7.0.1"
+        "guzzlehttp/guzzle": "^7.0.1",
+        "ext-json": "*"
     },
     "license": "MIT",
     "autoload": {
