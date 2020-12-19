@@ -235,6 +235,7 @@ class Client{
             if ($e->hasResponse()) {
                 return $e->getResponse()->getBody()->getContents();
             }
+            return $e->getResponse()->getBody()->getContents();
         }
     }
 }
